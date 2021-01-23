@@ -25,6 +25,10 @@ namespace GenericsIntro
 
             items[items.Length - 1] = item;
 
+            foreach (var a in items)
+            {
+                Console.WriteLine(a);
+            }
         }
     }
 }
